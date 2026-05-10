@@ -12,5 +12,5 @@ def login(driver):
     password = driver.find_element(By.ID, "password")
     password.send_keys("secret_sauce")
 
-    # PresionarHacer click en Boton de Login
+    # Hacer click en el Boton de Login
     boton = driver.find_element(By.ID,"login-button").click()
