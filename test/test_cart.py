@@ -21,6 +21,6 @@ def test_cart(login_in_driver):
     # Obtener nombre del producto en el carrito
     cart_item = driver.find_element(By.CLASS_NAME, "inventory_item_name").text
     
-    #comparar los nombres
+    # Comparar los nombres
     assert cart_item == product_name , "El producto agregado no coinciede "
 
